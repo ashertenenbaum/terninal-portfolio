@@ -27,9 +27,9 @@ async function open_terminal(){
   await delay(1500);
   createText("You can run several commands:");
  
-  createCode("about me", "Who am i and what do i do.");
-  createCode("all", "See all commands.");
-  createCode("social -a", "All my social networks.");
+  createCode("about me", "who am i and what do i do.");
+  createCode("all", "see all commands.");
+  createCode("social -a", "all my social networks.");
 
   await delay(500);
   new_line();
@@ -44,7 +44,7 @@ function new_line(){
   p.setAttribute("class", "path")
   p.textContent = "# user";
   span1.textContent = " in";
-  span2.textContent = " ~/heber-leonard";
+  span2.textContent = " ~/asher-tenenbaum";
   p.appendChild(span1);
   p.appendChild(span2);
   app.appendChild(p);
@@ -71,10 +71,10 @@ async function getInputValue(){
   if(value === "all"){
     trueValue(value);
     
-    createCode("projects", "My website with my projects.");
-    createCode("about me", "Who am i and what do i do.");
-    createCode("social -a", "All my social networks.");
-    createCode("clear", "Clean the terminal.");
+    createCode("projects", "my website with my projects.");
+    createCode("about me", "who am i and what do i do.");
+    createCode("social -a", "all my social networks.");
+    createCode("clear", "clean the terminal.");
     
   }
   else if(value === "projects"){
@@ -84,12 +84,11 @@ async function getInputValue(){
   else if(value === "about me"){
     trueValue(value);
     createText("Hi, Im Asher")
-    createText("I code a small bit in <span class='blue'> HTML, Python, JS </span> and am good at <span class='blue'> AWS and GCP </span")
+    createText("I code a small bit in <span class='blue'> HTML, Python, JS </span> and am good at <span class='blue'> AWS </span> and <span class='blue'> GCP. </span")
   }
   else if(value === "social -a"){
     trueValue(value);
     createText("<a href='https://github.com/ashertenenbaum' target='_blank'><i class='fab fa-github white'></i> github.com/ashertenenbaum</a>")
-    createText("<a href='https://open.spotify.com/user/udpr4ltos83y899lb6e0l2vxh?si=0BPtVOKYTVeFVJyO4h_QHQ&nd=1&dlsi=4a96150ad11e45c4' target='_blank'><i class='fab fa-linkedin-in white'></i> spotify.com/ashert</a>")
     createText("<a href='https://www.instagram.com/asherskc/' target='_blank'><i class='fab fa-instagram white'></i> instagram.com/asherskc</a>")
   }
   else if(value === "social"){
