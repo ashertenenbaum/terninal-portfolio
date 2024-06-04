@@ -71,7 +71,7 @@ async function getInputValue(){
   if(value === "all"){
     trueValue(value);
     
-    createCode("projects", "My github page with my projects. Follow me there ;)");
+    createCode("projects", "My website with my projects.");
     createCode("about me", "Who am i and what do i do.");
     createCode("social -a", "All my social networks.");
     createCode("clear", "Clean the terminal.");
@@ -79,18 +79,18 @@ async function getInputValue(){
   }
   else if(value === "projects"){
     trueValue(value);
-    createText("<a href='https://github.com/heberleonard2' target='_blank'><i class='fab fa-github white'></i> github.com/heberleonard2</a>")
+    createText("<a href='https://projects.ashertenenbaum.com' target='_blank'><i class='fab fa-github white'></i> github.com/ashertenenbaum</a>")
   }
   else if(value === "about me"){
     trueValue(value);
-    createText("Oi, meu nome é Héber ;)")
-    createText("Desenvolvedor atualmente focado em todo o ecossistema Javascript. Utilizando principalmente a stack <span class='blue'>Node, React e React Native </span>por permitir criar aplicações de forma descomplicada e produtiva.")
+    createText("Hi, Im Asher")
+    createText("I code a small bit in <span class='blue'> HTML, Python, JS </span> and am good at <span class='blue'> AWS and GCP </span")
   }
   else if(value === "social -a"){
     trueValue(value);
-    createText("<a href='https://github.com/heberleonard2' target='_blank'><i class='fab fa-github white'></i> github.com/heberleonard2</a>")
-    createText("<a href='https://www.linkedin.com/in/heber-leonard/' target='_blank'><i class='fab fa-linkedin-in white'></i> linkedin.com/in/heber-leonard</a>")
-    createText("<a href='https://www.instagram.com/heber_leonard/' target='_blank'><i class='fab fa-instagram white'></i> instagram.com/heber_leonard</a>")
+    createText("<a href='https://github.com/ashertenenbaum' target='_blank'><i class='fab fa-github white'></i> github.com/ashertenenbaum</a>")
+    createText("<a href='https://open.spotify.com/user/udpr4ltos83y899lb6e0l2vxh?si=0BPtVOKYTVeFVJyO4h_QHQ&nd=1&dlsi=4a96150ad11e45c4' target='_blank'><i class='fab fa-linkedin-in white'></i> spotify.com/ashert</a>")
+    createText("<a href='https://www.instagram.com/asherskc/' target='_blank'><i class='fab fa-instagram white'></i> instagram.com/asherskc</a>")
   }
   else if(value === "social"){
     trueValue(value);
