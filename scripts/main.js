@@ -79,7 +79,7 @@ async function getInputValue(){
   }
   else if(value === "projects"){
     trueValue(value);
-    createText("<a href='https://projects.ashertenenbaum.com' target='_blank'></i> github.com/ashertenenbaum</a>")
+    createText("<a href='https://projects.ashertenenbaum.com' target='_blank'></i> projects.ashertenenbaum.com</a>")
   }
   else if(value === "about me"){
     trueValue(value);
