@@ -79,12 +79,12 @@ async function getInputValue(){
   }
   else if(value === "projects"){
     trueValue(value);
-    createText("<a href='https://projects.ashertenenbaum.com' target='_blank'><i class='fab fa-github white'></i> github.com/ashertenenbaum</a>")
+    createText("<a href='https://projects.ashertenenbaum.com' target='_blank'></i> github.com/ashertenenbaum</a>")
   }
   else if(value === "about me"){
     trueValue(value);
     createText("Hi, Im Asher")
-    createText("I code a small bit in <span class='blue'> HTML, Python, JS </span> and am good at <span class='blue'> AWS </span> and <span class='blue'> GCP. </span")
+    createText("I code a small bit in <span class='blue'> HTML, Python, JS </span> and i am decent at <span class='blue'> AWS </span> and <span class='blue'> GCP. </span")
   }
   else if(value === "social -a"){
     trueValue(value);
